@@ -3,6 +3,7 @@ body {
   font-family: "Gill Sans", sans-serif;
   font-size: 15px;
   font-weight: lighter;
+  color: #EEFBFB;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -44,10 +45,10 @@ input:focus {
   justify-content: center;
 }
 .search-btn .btn {
-  color: #fffefe;
+  color: #EEFBFB;
   margin: 5px;
   padding: 10px 15px;
-  background-color: #24232d;
+  background-color: #007CC7;
   border: 1px solid transparent;
   border-radius: 40px;
   outline: none;
@@ -55,7 +56,7 @@ input:focus {
 }
 .btn:hover {
   background-color: #ccc;
-  color: #24232d;
+  color: #EEFBFB;
   border: 1px solid #24232d;
   transition: background-color 1s;
 }
