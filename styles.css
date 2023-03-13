@@ -55,8 +55,8 @@ input:focus {
   cursor: pointer;
 }
 .btn:hover {
-  background-color: #ccc;
-  color: #EEFBFB;
-  border: 1px solid #EEFBFB;
+  background-color: #EEFBFB;
+  color: #203647;
+  border: 1px solid #203647;
   transition: background-color 1s;
 }
