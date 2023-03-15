@@ -1,29 +1,48 @@
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>DSGNZ | Designer Search and Resource</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-
-  <div>
-    <!-- Logo image -->
- <center><img class="logo" src="/docs/assets/dsgnz-logo.png" alt="dsgnz" width="272" height="92"></center>
-    <!-- Start Search Form -->
-    <form method="get" action="https://www.google.com/search?q=">
-      <input class="search-input" type="text" name="q" size=31 maxlength=255 value="">
-      <div class="search-btn">
-        <button class="btn" type="submit">Google</button>
-        <button class="btn" type="submit" formaction="https://duckduckgo.com/?q=">DuckDuckGo</button>
-        <button class="btn" type="submit" formaction="https://search.brave.com/search?q=">Brave</button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Font Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>DSGNZ | Hassified</title>
+  </head>
+  <body>
+    <!-- Header Starts -->
+    <div class="header">
+      
+      <div class="header__right">
+        <a href="#">Resources</a>
       </div>
-    </form>
-    <!-- End Search Form -->
-  </div>
-</body>
+    </div>
+    <!-- Header Ends -->
 
+    <!-- Main Body Starts -->
+    <div class="mainBody">
+      <img
+        src="docs/assets/dsgnz-logo.png"
+        alt="Google Logo"
+      />
+
+      <!-- Search Starts -->
+      <div class="search">
+       <form method="get" action="http://www.google.com/search">
+        <div class="search__input">
+          <span class="material-icons"> search </span>
+          <input type="text" name="q" size=31 maxlength=255 value="">
+        </div>
+
+        <div class="search__buttons">
+          <button type="submit">Google</button>
+          <button type="submit" formaction="https://duckduckgo.com/?q=">DuckDuckGo</button>
+          <button type="submit" formaction="https://search.brave.com/search?q=">Brave</button>
+        </div>
+       </form>
+      </div>
+      <!-- Search Ends -->
+
+      
+    <!-- Main Body Ends -->
+  </body>
 </html>
