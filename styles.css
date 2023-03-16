@@ -90,14 +90,12 @@ body {
   padding: 10px 15px;
   background-color: #f8f8f8;
   outline: none;
-  border: 1px solid #bebebe;
-  border-radius: 999px;
+  border: none;
   cursor: pointer;
 }
 
 button:hover {
   background-color: #f8f8f8;
   border: 1px solid #49484d;
-  transition: background-color 1s;
 }
 
