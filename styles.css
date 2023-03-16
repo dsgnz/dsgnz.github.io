@@ -89,6 +89,7 @@ body {
   margin: 5px;
   padding: 10px 15px;
   background-color: #f8f8f8;
+  border: 1px solid #bebebe;
   outline: none;
   border: none;
   cursor: pointer;
