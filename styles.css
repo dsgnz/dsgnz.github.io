@@ -8,6 +8,7 @@ body {
   height: 100vh;
   background-color: #e6e6e4;
   color: #49484d;
+  font-size: 16px;
 }
 
 /* Header */
@@ -22,7 +23,7 @@ body {
   margin-right: 20px;
   text-decoration: inherit;
   color: rgba(0, 0, 0, 0.87);
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .header a:hover {
@@ -52,6 +53,7 @@ body {
 
 /* search */
 .search__input {
+  font-size: 16px;
   display: flex;
   align-items: center;
   background-color: #ffffff;
@@ -78,6 +80,7 @@ body {
 
 .search__buttons {
   color: #49484d;
+  font-size: 16px;
   margin-top: 30px;
   display: flex;
   justify-content: center;
