@@ -96,8 +96,7 @@ body {
 }
 
 button:hover {
-  background-color: #49484d;
-  color: #f8f8f8;
+  background-color: #f8f8f8;
   border: 1px solid #49484d;
   transition: background-color 1s;
 }
